@@ -19,7 +19,7 @@ to this section's matching END comment to see page-specific styles.
     --color-bg: #0096FF;
     --color-text-main: #000000;
     --color-primary: #FFFF00;
-    --wrapper-height: 87vh;
+    --wrapper-height: 80vh;
     --image-max-width: 300px;
     --image-margin: 3rem;
     --font-family: "Verdana";
@@ -36,12 +36,12 @@ to this section's matching END comment to see page-specific styles.
   
   /* Import fonts */
   @font-face {
-    font-family: HK Grotesk;
+    font-family: Verdana;
     src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Regular.otf?v=1603136326027")
       format("opentype");
   }
   @font-face {
-    font-family: HK Grotesk;
+    font-family: Verdana;
     font-weight: bold;
     src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Bold.otf?v=1603136323437")
       format("opentype");
@@ -49,7 +49,7 @@ to this section's matching END comment to see page-specific styles.
   
   /* Our remix on glitch button */
   .btn--remix {
-    font-family: HK Grotesk;
+    font-family: Verdana;
     padding: 0.75rem 1rem;
     font-size: 1.1rem;
     line-height: 1rem;
@@ -86,7 +86,7 @@ to this section's matching END comment to see page-specific styles.
   
   .footer a:not(.btn--remix):link,
   a:not(.btn--remix):visited {
-    font-family: HK Grotesk;
+    font-family: Verdana;
     font-style: normal;
     font-weight: normal;
     font-size: 1.1rem;
